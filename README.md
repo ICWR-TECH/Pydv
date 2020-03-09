@@ -3,9 +3,9 @@ Python Data Validator By R&amp;D ICWR
 ## Example Code
 ```python
 print("""
-#######################
-# Example Code - pydv #
-#######################
+#########################
+# Example Code - pydval #
+#########################
 """)
 
 import pydv
