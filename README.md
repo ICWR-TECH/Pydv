@@ -18,7 +18,7 @@ data_input=[
     ]
 
 print("[*] Multi Matching")
-result=pydv.validator().multi_matching(key_word,data_input)
+result=pydval.validator().multi_matching(key_word,data_input)
 i=0
 for x in result:
     i=i+1
@@ -29,7 +29,7 @@ single_data2="Einstein His efforts culminated in three papers, two in 1916 and t
 single_data3="It had been 16 years since Einstein Planck’s original theory"
 
 print("[*] Single Matching")
-print("\t[*] Total Valid From Answer %s"%(len(pydv.validator().matching(key_word,single_data1))))
-print("\t[*] Total Valid From Answer %s"%(len(pydv.validator().matching(key_word,single_data2))))
-print("\t[*] Total Valid From Answer %s"%(len(pydv.validator().matching(key_word,single_data3))))
+print("\t[*] Total Valid From Answer %s"%(len(pydval.validator().matching(key_word,single_data1))))
+print("\t[*] Total Valid From Answer %s"%(len(pydval.validator().matching(key_word,single_data2))))
+print("\t[*] Total Valid From Answer %s"%(len(pydval.validator().matching(key_word,single_data3))))
 ```
